@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-sandbox';
+  title = 'Angularサンプルページ';
+
+  public onClick(event: any) {
+    alert('ボタンがクリックされました');
+  }
 }
